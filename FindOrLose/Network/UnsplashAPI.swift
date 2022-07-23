@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 enum UnsplashAPI {
-  static let accessToken = "1FbNzA8lXbS1dKDVB3WXhQnbB7ZqYFYfhafTwi8TUx0"
+  static let accessToken = ""
 
   static func randomImage() -> AnyPublisher<RandomImageResponse, GameError> {
     let url = URL(string: "https://api.unsplash.com/photos/random/?client_id=\(accessToken)")!
